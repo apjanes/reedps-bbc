@@ -1,0 +1,18 @@
+{
+  "name": "bbc",
+  "version": "1.0.0",
+  "description": "Bowling Kata for BBC",
+  "main": "score.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./**/*_test.js"
+  },
+  "author": "Aaron Broughton-Janes",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
